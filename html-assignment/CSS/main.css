@@ -8,11 +8,14 @@ header, footer {
     color: orange
 }
 #my-image {
-    box-shadow: 0px 0px 2px 1px black; 
+    box-shadow: 0px 0px px 1px black; 
 }
 ul {
     list-style-type: square;
 }
-ol li:nth-child(odd) {
+ul li:nth-child(odd) {
     background-color: pink;
+}
+nav ul{
+    list-style-type: none;
 }
