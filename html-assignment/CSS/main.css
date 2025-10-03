@@ -21,4 +21,6 @@ nav ul{
 }
 nav a{
     text-decoration: none;
+    background-color: bisque;
+    border: 1px dotted #777;
 }
