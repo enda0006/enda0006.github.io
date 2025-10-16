@@ -116,3 +116,14 @@ textarea {
     padding: .6rem .7rem;
     border: 1px solid black;
 }
+
+.button{
+    border: 1px solid black;
+    padding: 5px;
+    text-transform: uppercase;
+    background-color: #aad4cf;
+}
+
+.right-side {
+    float: right;
+}
