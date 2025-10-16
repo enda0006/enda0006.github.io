@@ -91,7 +91,7 @@ main {
     height: auto;
     margin: 0 .9rem .5rem 0;
 }
-
+/* gave this whole form some stucter and a soft background */
 .form {
     margin-top: .5rem;
     border: 1px solid black;
@@ -99,7 +99,7 @@ main {
     border-radius: 6px;
     background: #aad4cf;
 }
-
+/* used. grid layout to keep each row neat and evenly spaced */
 .form-row {
     display: grid; gap: .4rem; margin-bottom: .9rem;
 }
@@ -107,8 +107,11 @@ main {
 label {
     font-weight: 600;
 }
+/* styled imputs and textarea to match the rest of the form */
+input [ type="text"], 
+input [type="email"], 
 
-input [ type="text"], input [type="email"], textarea {
+textarea {
     width: 100%;
     padding: .6rem .7rem;
     border: 1px solid black;
