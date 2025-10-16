@@ -1,8 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    line-height: .5;
+    line-height: 1.6;
     color: #1f2a2e;
-    background: #aad4cf;
+    background: #4caca0;
 }
 
 .wrapper {
@@ -12,7 +12,7 @@ padding: 2rem 0;
 .container {
     width: min(960px, 92vw);
     margin: 0 auto;
-    background: #fff;
+    background: #aad4cf;
     border-radius: 8px;
     box-shadow: 0 6px 24px rgba(0,0,0,.08);
     overflow: hidden;
@@ -45,7 +45,7 @@ padding: 2rem 0;
 }
 
 nav {
-    background: #b8dfda;
+    background: #aad4cf;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -78,4 +78,15 @@ nav a:hover {
     background-color: #92c6bf;
     color: white;
     border-radius: 4px;
+}
+
+main {
+    padding: 1.25rem 1.5rem 2rem;
+}
+
+.story-img {
+    float: left;
+    width: min(220px, 40%);
+    height: auto;
+    margin: 0 .9rem .5rem 0;
 }
