@@ -91,3 +91,25 @@ main {
     height: auto;
     margin: 0 .9rem .5rem 0;
 }
+
+.form {
+    margin-top: .5rem;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 6px;
+    background: #aad4cf;
+}
+
+.form-row {
+    display: grid; gap: .4rem; margin-bottom: .9rem;
+}
+
+label {
+    font-weight: 600;
+}
+
+input [ type="text"], input [type="email"], textarea {
+    width: 100%;
+    padding: .6rem .7rem;
+    border: 1px solid black;
+}
