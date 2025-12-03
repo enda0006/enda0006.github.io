@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <!-- embed search icon -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search">
-    <!-- embed arrow button for for welcom section -->
-     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_right">
+
+    <!-- single embed for Material Symbols (search + arrow) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+
     <title>Final Project</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,195 +18,205 @@
     <header>
         <div class="site-header">
             <!-- Logo -->
-             <img src="images/logo.png" alt="Three Star Media Logo">
-        </div>
+            <img src="images/logo.png" alt="Three Star Media Logo">
+        </div>  
         <!-- main navigation and search form -->
-         <nav>
+        <nav>
             <ul>
                 <li><a href="home">Home</a></li>
                 <li><a href="about">About Us</a></li>
                 <li><a href="services">Services</a></li>
                 <li><a href="team">Team</a></li>
                 <li><a href="contact">Contact</a></li>
-
             </ul>
-            <label for="Search"></label>
-            <input type="Search" id="Search" name="Search" placeholder="Search">
-            <span class="material-symbols-outlined">search</span>
-         </nav>
+
+            <!-- search form with button so icon is interactive -->
+            <form action="#" method="get" class="site-search">
+                <label for="search">Search</label>
+                <input type="search" id="search" name="search" placeholder="Search">
+                <button type="submit" class="Search">
+                    <span class="material-symbols-outlined">search</span>
+                </button>
+            </form>
+        </nav>
     </header>
 
     <main>
         <!-- Welcome section -->
         <section id="welcome">
             <!-- main banner image -->
-             <img src="images/main-banner.jpg" alt="Office space with seating and work area">
-             <!-- Text content -->
-              <div class="welcome-text">
+            <img src="images/main-banner.jpg" alt="Office space with seating and work area">
+            <!-- Text content -->
+            <div class="welcome-text">
                 <h1>Welcome to Three Star Media</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus repellat praesentium, iusto ut, at rerum error ab laborum quo ipsa dicta necessitatibus, odit repellendus aspernatur quis maxime! Fuga, adipisci nulla.</p>
-                <a href="contact">Connect with us</a>
-                <!-- arrow button -->
-                 <span class="material-symbols-outlined">arrow_right</span>
-              </div>
-
+                <a href="connect" class="buttonarrow">Connect with us <span class="material-symbols-outlined">arrow_right</span></a>
+            </div>
         </section>
+
         <!-- About Us section -->
         <section id="about">
-            <div class="about-images">
+            <div class="about-image">
                 <img src="images/about-us.jpg" alt="Ping-pong table">
             </div>
             <div class="about-text">
                 <h2>About Us</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ut quo provident corrupti recusandae itaque voluptatum natus cum voluptates consequuntur praesentium dolorum corporis earum, quae dolor necessitatibus doloribus explicabo optio?</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi et dolorem tenetur ipsa fugit officia laboriosam suscipit sed optio accusamus, est, ullam pariatur. Quasi magni distinctio at, reprehenderit possimus maxime?</p>
-
             </div>
-
         </section>
 
         <!-- Our services section -->
-         <section id="services">
+        <section id="services">
             <h2>Our Services</h2>
+
             <!-- Digital Transformation -->
-             <article class="service1">
+            <article class="service1">
                 <img src="images/digital.jpg" alt="Person using laptop and phone at a table">
                 <div class="service-digital">
-                <h3>Digital Transformation</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae distinctio est sed, quam temporibus dolor nesciunt iste rem odio quis quos quasi voluptates, neque itaque illo hic nisi. Beatae, vitae.</p>
-                <a href="digitalbutton">Digital Plans</a>
-                <span class="material-symbols-outlined">arrow_right</span>
+                    <h3>Digital Transformation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae distinctio est sed, quam temporibus dolor nesciunt iste rem odio quis quos quasi voluptates, neque itaque illo hic nisi. Beatae, vitae.</p>
+                    <a href="digitalbutton">Digital Plans <span class="material-symbols-outlined">arrow_right</span></a>
                 </div>
-             </article>
-             <!-- Marketing -->
-              <article class="service2">
+            </article>
+
+            <!-- Marketing -->
+            <article class="service2">
                 <img src="images/marketing.jpg" alt="marketing analytics dashboard on laptop screen ">
                 <div class="service-marketing">
                     <h3>Marketing</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore reiciendis iure aperiam sapiente nobis rerum veritatis mollitia voluptates! At numquam officiis ducimus consequuntur natus hic accusantium accusamus magni excepturi assumenda.</p>
-                     <a href="marketingbutton">Marketing Plans</a>
-                     <span class="material-symbols-outlined">arrow_right</span>
-                    
+                    <a href="marketingbutton">Marketing Plans <span class="material-symbols-outlined">arrow_right</span></a>
                 </div>
-              </article>
-              <!-- Video Production -->
-               <article class="service3">
+            </article>
+
+            <!-- Video Production -->
+            <article class="service3">
                 <img src="images/video.jpg" alt="holding phone with video play button on the screen">
                 <div class="service-video">
                     <h3>Video Production</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iure doloremque maxime pariatur magni, ea doloribus corrupti tenetur! Aliquid ratione esse obcaecati quo, eligendi tenetur! Laborum modi magni minus distinctio.</p>
-                    <a href="videobutton">Video Plans</a>
-                    <span class="material-symbols-outlined">arrow_right</span>
+                    <a href="videobutton">Video Plans <span class="material-symbols-outlined">arrow_right</span></a>
                 </div>
-               </article>
-               <!-- Web Development -->
-                <article class="service4">
-                     <img src="images/web.jpg" alt="Phone with social meadia app openlaying on a noteook">
+            </article>
+
+            <!-- Web Development -->
+            <article class="service4">
+                <img src="images/web.jpg" alt="Phone with social meadia app openlaying on a noteook">
                 <div class="service-web">
                     <h3>Web Development</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iure doloremque maxime pariatur magni, ea doloribus corrupti tenetur! Aliquid ratione esse obcaecati quo, eligendi tenetur! Laborum modi magni minus distinctio.</p>
-                    <a href="webbutton">Web Plans</a>
-                    <span class="material-symbols-outlined">arrow_right</span>
+                    <a href="webbutton">Web Plans <span class="material-symbols-outlined">arrow_right</span></a>
                 </div>
-                </article>
-                <!-- Print -->
-                 <article class="service5">
-                     <img src="images/print.jpg" alt="colorful newspaper boxes line uo on a city sidewalk">
+            </article>
+
+            <!-- Print -->
+            <article class="service5">
+                <img src="images/print.jpg" alt="colorful newspaper boxes line uo on a city sidewalk">
                 <div class="service-print">
                     <h3>Print</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iure doloremque maxime pariatur magni, ea doloribus corrupti tenetur! Aliquid ratione esse obcaecati quo, eligendi tenetur! Laborum modi magni minus distinctio.</p>
-                    <a href="Printbutton">Print Plans</a>
-                    <span class="material-symbols-outlined">arrow_right</span>
+                    <a href="Printbutton">Print Plans <span class="material-symbols-outlined">arrow_right</span></a>
                 </div>
-                </article>
-         </section>
+            </article>
+        </section>
+
         <!-- Our Vision banner section -->
-         <section id="Vision">
+        <section id="Vision">
             <img src="images/vision.jpg" alt="Paper boats in a row on a surface">
             <div class="vision-text">
                 <h2>Our Vision</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ducimus nostrum dolores sint architecto iusto voluptates atque, sed corrupti velit cum fugiat, aliquid repellat quibusdam tempora, minima tenetur suscipit dolore.</p>
-                <a href="visionbutton">Learn More</a>
-                <span class="material-symbols-outlined">arrow_right</span>
+                <a href="visionbutton">Learn More <span class="material-symbols-outlined">arrow_right</span></a>
             </div>
-         </section>
-         <!-- Our Team Section -->
-          <section id="team">
+        </section>
+
+        <!-- Our Team Section -->
+        <section id="team">
             <h2>Our Team</h2>
+
             <!-- Member: John Doe -->
-             <article class="team-member1">
-                     <img src="images/john.jpg" alt="Man standing infront of a colorful graffiti wall wearing a striped t-shirt">
+            <article class="team-member1">
+                <img src="images/john.jpg" alt="Man standing infront of a colorful graffiti wall wearing a striped t-shirt">
                 <div class="member1-content">
                     <h3>John Doe</h3>
-                     <p>CEO and Co-owner</p>
+                    <p>CEO and Co-owner</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iure doloremque maxime pariatur magni, ea doloribus corrupti tenetur! Aliquid ratione esse obcaecati quo, eligendi tenetur! Laborum modi magni minus distinctio.</p>
                 </div>
-                </article>
-                <!-- Member: Bob Rite -->
-             <article class="team-member2">
-                     <img src="images/bob.jpg" alt="picture of Bob Rite sititing in a office">
+            </article>
+
+            <!-- Member: Bob Rite -->
+            <article class="team-member2">
+                <img src="images/bob.jpg" alt="picture of Bob Rite sititing in a office">
                 <div class="member2-content">
                     <h3>Bob Rite</h3>
                     <p>CEO and Co-owner</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iure doloremque maxime pariatur magni, ea doloribus corrupti tenetur! Aliquid ratione esse obcaecati quo, eligendi tenetur! Laborum modi magni minus distinctio.</p>
                 </div>
-                </article>
-          </section>
-        <!-- Contact,Hours, and Location Section -->
-         <section id="Contact" class="Contact">
+            </article>
+        </section>
+
+        <!-- Contact, Hours, and Location Section (combined as one section) -->
+        <section id="contact" class="contact">
             <h2 id="contact-title">Contact Us</h2>
-            <h3 id="contact-message">Send us a message</h3>
-            <!-- Contact form -->
-             <div class="form">
-                <div class="form-row1">
-                    <label for="full-name">full Name</label>
-                    <input type="text" name="full-name" id="full-name">
-                </div>
-                <div class="form-row2">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div class="form-row3">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message"></textarea>
-                </div>
-                <button type="submit">Send</button>
-             </div>
-         </section>
-         <!-- Hours of Operation section -->
-          <section id="hours" class="hours">
-            <h3 id="hoursofoperation">Hours of Operation</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Days</th>
-                        <th>Hours</th>
-                    </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>Monday - Friday</td>
-                    <td>9 AM - 6 PM</td>
-                </tr>
-                <tr>
-                    <td>Saturday - Sunday</td>
-                    <td>Closed</td>
-                </tr>
-                </tbody>
-            </table>
-          </section>
-          <!-- Location with Google Maps iframe -->
-           <section id="Location">
-            <h2>Location</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.9147417188615!2d-75.76088505279759!3d45.34967278428911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1764280720649!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-           </section>
+            <h3 id="contact-message">Send Us a Message</h3>
+
+            <!-- Send us a message -->
+                <form class="form" action="#" method="post">
+                    <div class="form-row1">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" name="full-name" id="full-name">
+                    </div>
+
+                    <div class="form-row2">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <div class="form-row3">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+        </section>
+
+            <!-- Hours of Operation -->
+             <section id="hours" class="hours">
+                <h3 id="hoursofoperation">Hours of operation</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Days</th>
+                            <th>Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday - Friday</td>
+                            <td>9 AM - 6 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday - Sunday</td>
+                            <td>Closed</td>
+                        </tr>
+                    </tbody>
+                </table>
+             </section>
+
+            <!-- Location -->
+             <section id="location">
+                <h3>Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.9147417188615!2d-75.76088505279759!3d45.34967278428911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1764280720649!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
     </main>
+
     <!-- site Footer -->
-     <footer>
-        <p>©Copyright Three Star Media, 2020</p>
+    <footer>
+        <p>&copy; Copyright Three Star Media, 2020</p>
         <p>All images are taken from 
             <a href="https://unsplash.com" target="_blank">Unsplash</a>
         </p>
-     </footer>
+    </footer>
 </body>
 </html>
