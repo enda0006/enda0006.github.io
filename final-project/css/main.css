@@ -592,6 +592,7 @@ footer a:hover {
     max-width: 90px;
     display: block;
   }
+  
     /* nav + search share the same row */
   nav {
     background-color: transparent;
@@ -633,6 +634,7 @@ footer a:hover {
     color: #c78c06;
     text-decoration: none;
   }
+
  /* SEARCH BAR */
   .site-search {
     margin-left: auto;
@@ -664,6 +666,7 @@ footer a:hover {
     color: #c78c06;
     font-size: 1.5rem;
   }
+
 /* ---------- WELCOME ---------- */
   #welcome {
     height: 500px;
@@ -710,6 +713,7 @@ footer a:hover {
     height: 20px;
     position: relative;
   }
+
   /* ---------- ABOUT section ---------- */
   #about {
     display: grid;
@@ -722,6 +726,7 @@ footer a:hover {
     height: 100%;
     object-fit: cover;
   }
+
   /* ---------- SERVICES (DESKTOP GRID) ---------- */
   #services {
     width: 100%;
@@ -751,6 +756,31 @@ footer a:hover {
     height: 260px;
     object-fit: cover;
     display: block;
+  }
+
+  /* Digital Transformation */
+  .service1 {
+    grid-column: 1 / span 3;
+  }
+
+  /* Marketing */
+  .service2 {
+    grid-column: 4 / span 3;
+  }
+
+  /* Video */
+  .service3 {
+    grid-column: 1 / span 2;
+  }
+
+  /* Web Dev */
+  .service4 {
+    grid-column: 3 / span 2;
+  }
+
+  /* Print */
+  .service5 {
+    grid-column: 5 / span 2;
   }
 
 }
