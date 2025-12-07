@@ -633,5 +633,36 @@ footer a:hover {
     color: #c78c06;
     text-decoration: none;
   }
+ /* SEARCH BAR */
+  .site-search {
+    margin-left: auto;
+    max-width: 360px;
+    display: flex;
+  }
+
+  .site-search input[type="search"] {
+    flex: 1;
+    padding: 10px 12px;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-right: none;
+    font-size: 1rem;
+  }
+
+  .site-search button {
+    border: 2px solid #c78c06;
+    border-left: none;
+    background-color: #222;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .site-search .material-symbols-outlined {
+    color: #c78c06;
+    font-size: 1.5rem;
+  }
 
 }
