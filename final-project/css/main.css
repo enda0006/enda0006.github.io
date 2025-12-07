@@ -169,3 +169,15 @@ nav ul li:not(:first-child) a {
     margin-top: 1.4rem;
     position: relative;
 }
+/* Button – mobile default */
+.welcome-text .buttonarrow {
+    background-color: #c78c06;
+    color: #222222;
+    padding: 14px 24px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    height: 40px;
+    top: 10px;
+    position: relative;
+}
