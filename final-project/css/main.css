@@ -128,3 +128,44 @@ nav ul li:not(:first-child) a {
     font-size: 1.4rem;
 }
 
+/* ======= WELCOME HERO SECTION — MOBILE DEFAULT ======= */
+#welcome {
+    position: relative;
+    margin: 0 0 0rem;
+}
+
+#welcome img {
+    width: 100%;
+    display: block;
+}
+
+/* Grey overlay layer */
+.welcome-overlay {
+    position: absolute;
+    inset: 50px 0px;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 1;
+}
+
+/* Text layer, above overlay */
+.welcome-text {
+    position: absolute;
+    z-index: 2;
+    bottom: 12%;
+    left: 0;
+    right: 0;
+    max-width: 80%;
+    padding: 20px 24px;
+    color: #ffffff;
+}
+
+/* Heading + paragraph */
+.welcome-text h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+.welcome-text p {
+    margin-top: 1.4rem;
+    position: relative;
+}
