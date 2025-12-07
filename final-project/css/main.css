@@ -34,3 +34,18 @@ body {
     max-width: 1200px; 
     margin: 0 auto;
 }
+
+/* ======= HEADER / GOLD LOGO BAR (MOBILE) ======= */
+header {
+    background-color: #222;
+    padding: 0;
+}
+
+.site-header {
+    background-color: #c78c06;
+    padding: 16px;
+}
+
+.site-header img {
+    max-width: 120px;
+}
