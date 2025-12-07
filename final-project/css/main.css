@@ -93,3 +93,38 @@ nav ul li:not(:first-child) a {
     color: #c78c06;
 }
 
+/* ======= SEARCH BAR ======= */
+.site-search {
+    display: flex;
+    margin: 0;
+    padding: 0 16px 16px;
+}
+
+.site-search label {
+    position: absolute;
+    left: -9999px;
+}
+
+.site-search input[type="search"] {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+.site-search button {
+    border: 2px solid #c78c06;
+    border-left: none;
+    background-color: #222;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-search .material-symbols-outlined {
+    color: #c78c06;
+    font-size: 1.4rem;
+}
+
