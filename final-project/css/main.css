@@ -384,3 +384,39 @@ nav ul li:not(:first-child) a {
     color: #222;
     line-height: 1.5;
 }
+
+/* ======= BOB RITE — MOBILE ONLY ======= */
+.team-member2 {
+    background-color: #ffe6ac;
+    margin-bottom: 16px;
+}
+
+.team-member2 img {
+    width: 100%;
+    display: block;
+}
+
+.member2-content {
+    padding: 16px;
+}
+
+.member2-content h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 4px;
+}
+
+.member2-content p:first-of-type {
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.member2-content p:last-of-type {
+    border-top: 2px solid #c78c06;
+    padding-top: 10px;
+    margin-top: 6px;
+    color: #222;
+    line-height: 1.5;
+}
