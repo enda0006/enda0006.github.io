@@ -710,5 +710,17 @@ footer a:hover {
     height: 20px;
     position: relative;
   }
+  /* ---------- ABOUT section ---------- */
+  #about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    padding: 40px 80px 30px;
+  }
+
+  #about .about-image img {
+    height: 100%;
+    object-fit: cover;
+  }
 
 }
