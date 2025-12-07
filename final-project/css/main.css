@@ -181,3 +181,29 @@ nav ul li:not(:first-child) a {
     top: 10px;
     position: relative;
 }
+
+/* ======= ABOUT SECTION — MOBILE ONLY ======= */
+#about {
+    background-color: #ffe6ac;
+    padding: 16px 16px 24px;
+    margin: 0;
+}
+
+.about-image img {
+    width: 100%;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.about-text h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 16px;
+}
+
+.about-text p {
+    color: #222;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
