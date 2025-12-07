@@ -592,5 +592,46 @@ footer a:hover {
     max-width: 90px;
     display: block;
   }
-  
+    /* nav + search share the same row */
+  nav {
+    background-color: transparent;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-left: 40px;
+    list-style: none;
+  }
+
+  /* HOME tab as gold box */
+  nav ul li:first-child {
+    width: auto;
+    margin-top: 0;
+    padding: 12px 40px;
+    background-color: #c78c06;
+    text-align: center;
+  }
+
+  nav ul li:first-child a {
+    color: #222;
+  }
+
+  /* other links – just text, no padding box */
+  nav ul li:not(:first-child) {
+    padding: 0;
+  }
+
+  nav ul li:not(:first-child) a {
+    color: #c78c06;
+    text-decoration: none;
+  }
+
 }
