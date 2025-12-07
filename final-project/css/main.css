@@ -820,5 +820,31 @@ footer a:hover {
     justify-content: flex-start;
     align-items: flex-start;
   }
+  
+ /* --- BOB RITE ROW --- */
+  .team-member2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "content img";
+    background-color: #ffe6ac;
+    margin-top: 0;
+  }
+
+  .team-member2 img {
+    grid-area: img;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    display: block;
+  }
+
+  .member2-content {
+    grid-area: content;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 
 }
