@@ -888,5 +888,26 @@ footer a:hover {
     margin-top: 0;
     margin-bottom: 20px;
   }
+  /* -------- DESKTOP / TABLET HOURS -------- */
+  #hours {
+    padding: 40px 80px; 
+    margin: 40px 0 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #hours table {
+    width: 100%;            
+    table-layout: fixed;     
+  }
+
+  #hours thead th {
+    padding: 18px 32px;   
+    font-size: 1.05rem;
+  }
+
+  #hours tbody td {
+    padding: 18px 32px;  
+  }
 
 }
