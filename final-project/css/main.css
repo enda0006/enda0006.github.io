@@ -592,7 +592,7 @@ footer a:hover {
     max-width: 90px;
     display: block;
   }
-  
+
     /* nav + search share the same row */
   nav {
     background-color: transparent;
@@ -781,6 +781,44 @@ footer a:hover {
   /* Print */
   .service5 {
     grid-column: 5 / span 2;
+  }
+
+    /* ======= TEAM — DESKTOP / TABLET (760px+) ======= */
+  #team {
+    padding: 40px 80px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+  }
+
+  #team > h2 {
+    font-size: 3rem;
+    margin-bottom: 24px;
+  }
+
+  /* --- JOHN DOE ROW --- */
+  .team-member1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "img content";
+    background-color: #ffe6ac;
+    margin: 0;
+  }
+
+  .team-member1 img {
+    grid-area: img;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .member1-content {
+    grid-area: content;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
 }
