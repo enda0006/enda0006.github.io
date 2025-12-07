@@ -49,3 +49,47 @@ header {
 .site-header img {
     max-width: 120px;
 }
+
+/* ======= NAVIGATION (MOBILE) ======= */
+nav {
+    background-color: #222;
+    padding: 0 0 24px;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    list-style: none;
+}
+
+nav a {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+nav ul li:first-child {
+    width: 100%;
+    background-color: #c78c06;
+    text-align: center;
+    padding: 14px 0;
+    margin-top: 0;
+    border-top: none;
+}
+
+nav ul li:first-child a {
+    color: #222;
+}
+
+nav ul li:not(:first-child) {
+    padding: 16px 0;
+}
+
+nav ul li:not(:first-child) a {
+    color: #c78c06;
+}
+
