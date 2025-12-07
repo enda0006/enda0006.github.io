@@ -207,3 +207,80 @@ nav ul li:not(:first-child) a {
     margin-bottom: 1rem;
     line-height: 1.5;
 }
+
+/* ======= OUR SERVICES — MOBILE ONLY ======= */
+#services {
+    background-color: #ffffff;
+    padding: 24px 16px 24px;
+    margin: 0;
+}
+
+#services > h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 16px;
+}
+
+#services article {
+    background-color: #ffe6ac;
+    margin-bottom: 16px;
+}
+
+#services article img {
+    width: 100%;
+    display: block;
+}
+
+.service-digital,
+.service-marketing,
+.service-video,
+.service-web,
+.service-print {
+    padding: 16px;
+}
+
+.service-digital h3,
+.service-marketing h3,
+.service-video h3,
+.service-web h3,
+.service-print h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 12px;
+}
+
+.service-digital p,
+.service-marketing p,
+.service-video p,
+.service-web p,
+.service-print p {
+    color: #222;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.service-digital a,
+.service-marketing a,
+.service-video a,
+.service-web a,
+.service-print a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 22px;
+    background-color: #222;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.service-digital a .material-symbols-outlined,
+.service-marketing a .material-symbols-outlined,
+.service-video a .material-symbols-outlined,
+.service-web a .material-symbols-outlined,
+.service-print a .material-symbols-outlined {
+    font-size: 1.3rem;
+    color: #ffffff;
+}
