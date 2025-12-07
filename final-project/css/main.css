@@ -565,3 +565,32 @@ footer a:hover {
     opacity: 0.8;
 }
 
+/* ======= DESKTOP / TABLET LAYOUT (760px+) ======= */
+@media (min-width: 760px) {
+
+  /* HEADER / NAV / SEARCH */
+  header {
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 20px 40px;
+    box-sizing: border-box;
+  }
+
+  /* gold logo block */
+  .site-header {
+    padding: 8px;
+    background-color: #c78c06;
+    display: inline-block;
+  }
+
+  .site-header img {
+    max-width: 90px;
+    display: block;
+  }
+  
+}
