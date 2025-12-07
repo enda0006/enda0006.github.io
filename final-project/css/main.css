@@ -335,3 +335,52 @@ nav ul li:not(:first-child) a {
     color: #ffffff;
     font-size: 1.4rem;
 }
+
+/* ======= OUR TEAM — MOBILE ONLY ======= */
+#team {
+    background-color: #ffffff;
+    padding: 24px 16px 24px;
+    margin: 0;
+}
+
+#team > h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 16px;
+}
+
+.team-member1 {
+    background-color: #ffe6ac;
+    margin-bottom: 16px;
+}
+
+.team-member1 img {
+    width: 100%;
+    display: block;
+}
+
+.member1-content {
+    padding: 16px;
+}
+
+.member1-content h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 4px;
+}
+
+.member1-content p:first-of-type {
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.member1-content p:last-of-type {
+    border-top: 2px solid #c78c06;
+    padding-top: 10px;
+    margin-top: 6px;
+    color: #222;
+    line-height: 1.5;
+}
