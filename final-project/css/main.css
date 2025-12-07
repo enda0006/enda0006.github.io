@@ -485,3 +485,38 @@ nav ul li:not(:first-child) a {
 #contact button:hover {
   background-color: #000;
 }
+
+/* -------- MOBILE HOURS -------- */
+#hours {
+  background-color: #ffffff;
+  padding: 24px 16px; 
+  margin: 0;
+}
+
+#hoursofoperation {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 16px;
+}
+
+#hours table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+#hours thead th {
+  background-color: #ffe6ac;
+  color: #222;
+  font-weight: normal;
+  text-align: center;
+  padding: 12px 8px;
+  border: 1px solid #222;
+}
+
+#hours tbody td {
+  border: 1px solid #222;
+  padding: 14px 10px;
+  color: #222;
+}
